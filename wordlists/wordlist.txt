@@ -1,0 +1,13 @@
+pass
+steveol
+chotzi
+lb2512
+scotch
+passwerd
+asdf1234
+.
+.
+.
+.
+.
+##This is an example of a wordlist file##
