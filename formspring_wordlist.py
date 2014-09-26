@@ -41,7 +41,7 @@ for pwd in passwordList:
 		
 		if hashDict.has_key(sha256): #check hash table for password hash
 			count += 1
-			cracked_file.write(sha256 + " " + pwd + salt + "\n");
+			cracked_file.write(sha256 + " " + salt + pwd + "\n");
 	
 print "total cracked: ", count
 
