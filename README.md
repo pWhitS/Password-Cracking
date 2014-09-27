@@ -3,7 +3,7 @@ Password-Cracking
 
 Cracking passwords for well known hash dumps.
 
-This repository has several python programs that use several different methods for cracking hashed passwords. Currently, there are cracking scripts for sha1, sha256, and md5. However, The md5 script can quickly be modified to crack password hashed with any hashing algorithm supported by python's hashlib. The sha256 script is written to specifically to crack Formsprings hash dump, where every password was prepended with a salt. 
+This repository has several python programs that use several different methods for cracking hashed passwords. Currently, there are cracking scripts for sha1, sha256, and md5. However, The md5 script can quickly be modified to crack passwords hashed with any hashing algorithm supported by python's hashlib. The sha256 script is written specifically to crack Formsprings hash dump, where every password was prepended with a salt. 
 
 The md5 script accepts 2 arguments. The arguments must be text files but can be located in subdirectories. The first file is the hash dump we are cracking, and the second file is the wordlist to be loaded. 
 
