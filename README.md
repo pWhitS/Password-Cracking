@@ -11,11 +11,11 @@ The md5 script accepts 2 arguments. The arguments must be text files but can be 
     
 The sha1 and sha256 scripts accept 1 argument, the wordlist file, which can be in a subdirectory. 
 
-    $ python sha256_wordlist dir1/wordlist.txt
+    $ python sha256_wordlist.py dir1/wordlist.txt
     
 Finally, the sha1 brute force script accepts 2 arguments. These are the minimum length and the maximum length of characters to brute force over. 
 
-    $ python sha1_bruteforce 4 12
+    $ python sha1_bruteforce.py 4 12
     
 
 All cracking scripts output cracked passwords to a file named either name_cracked.txt or cracked_name.txt. Also, the plaintext password and corresponding hash are printed to one line in the file, for every cracked password. 
