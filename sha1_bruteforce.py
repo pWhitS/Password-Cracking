@@ -20,7 +20,7 @@ hash_file = open("hashfiles/linkedin.txt", "r")
 cracked_file = open("cracked/brute_linkedin_cracked.txt", "w")
 
 #define the character set to brute force over
-charset = string.ascii_lowercase + string.ascii_uppercase + "123456780"
+charset = string.ascii_letters + string.digits
 
 hashDict = {} #init a hash table for hashed passwords
 for hash in hash_file:

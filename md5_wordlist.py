@@ -18,8 +18,8 @@ try: #open all files
 	wordlist_file = open(word_filename, "r")
 	hash_file = open(hash_filename, "r")
 	cracked_file = open("cracked/cracked_" + hash_filename, "w")
-except IOError:
-	print("One or more files could not be opened. =(")
+except IOError, err:
+	print("One or more files could not be opened. =(", err)
 	sys.exit(0)
 
 hashDict = {} #init a hash table
